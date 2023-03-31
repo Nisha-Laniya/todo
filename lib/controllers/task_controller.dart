@@ -1,7 +1,4 @@
-import 'package:get/get.dart';
-import 'package:todo/database/db_helper.dart';
-
-import '../models/task.dart';
+import '../utils/barrel_export.dart';
 
 class TaskController extends GetxController {
 

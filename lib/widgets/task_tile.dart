@@ -1,7 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-import '../models/task.dart';
-import '../utils/theme.dart';
+import '../utils/barrel_export.dart';
 
 class TaskTile extends StatelessWidget {
   final Task? task;

@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
+import '../utils/barrel_export.dart';
 
 class NotifiedPage extends StatelessWidget {
   final String label;

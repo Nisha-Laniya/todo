@@ -1,17 +1,5 @@
-import 'package:date_picker_timeline/date_picker_timeline.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
-import 'package:google_fonts/google_fonts.dart';
+import '../utils/barrel_export.dart';
 import 'package:intl/intl.dart';
-import 'package:todo/controllers/task_controller.dart';
-import 'package:todo/screens/add_task_page.dart';
-import 'package:todo/services/notification_service.dart';
-import 'package:todo/services/theme_service.dart';
-import 'package:get/get.dart';
-import 'package:todo/utils/theme.dart';
-import 'package:todo/widgets/task_tile.dart';
-import '../models/task.dart';
-import '../widgets/buttons.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
